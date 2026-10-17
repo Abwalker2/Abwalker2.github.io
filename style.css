@@ -1,7 +1,7 @@
-@font-face{font-family:Outfit;font-weight:600;font-style:normal;font-display:swap;src:url(fonts/outfit-latin-600-normal.woff2) format("woff2")}
-@font-face{font-family:Outfit;font-weight:800;font-style:normal;font-display:swap;src:url(fonts/outfit-latin-800-normal.woff2) format("woff2")}
-@font-face{font-family:"DM Sans";font-weight:400;font-style:normal;font-display:swap;src:url(fonts/dm-sans-latin-400-normal.woff2) format("woff2")}
-@font-face{font-family:"DM Sans";font-weight:500;font-style:normal;font-display:swap;src:url(fonts/dm-sans-latin-500-normal.woff2) format("woff2")}
+@font-face{font-family:Outfit;font-weight:600;font-style:normal;font-display:swap;src:url(outfit-latin-600-normal.woff2) format("woff2")}
+@font-face{font-family:Outfit;font-weight:800;font-style:normal;font-display:swap;src:url(outfit-latin-800-normal.woff2) format("woff2")}
+@font-face{font-family:"DM Sans";font-weight:400;font-style:normal;font-display:swap;src:url(dm-sans-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:"DM Sans";font-weight:500;font-style:normal;font-display:swap;src:url(dm-sans-latin-500-normal.woff2) format("woff2")}
 
 :root{--bg:#050a30;--fg:#eaf3ff;--muted:#9db2e0;--accent:#8fd3ff;--card:#0b1458d9;--line:#8fd3ff2e;
 --head:Outfit,"Segoe UI",system-ui,sans-serif;--body:"DM Sans","Segoe UI",system-ui,sans-serif;
