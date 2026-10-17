@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; font-src 'self'; img-src 'self' data:; connect-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#060a33">
+<title>Abhishek | Data Science, AI/ML & Automation</title>
+<meta name="description" content="Portfolio of Abhishek, a computer science graduate from Delhi building data science, machine learning and AI automation projects.">
+<meta property="og:title" content="Abhishek | Data Science, AI/ML & Automation">
+<meta property="og:description" content="Projects in machine learning, RAG, transformers and LLM automation with n8n.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%AA%BC%3C/text%3E%3C/svg%3E">
+<link rel="preload" href="fonts/outfit-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/dm-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<canvas id="bg" aria-hidden="true"></canvas>
+
+<header class="wrap">
+<nav aria-label="Primary"><b>Abhishek</b>
+<div><a href="#about">About</a><a href="#work">Projects</a><a href="#skills">Skills</a><a href="#path">Experience</a><a href="#contact">Contact</a></div></nav>
+</header>
+
+<main id="main" class="wrap">
+<div class="hero">
+<h1><span>Abhishek</span><span>teaches machines to find patterns.</span></h1>
+<div class="role" aria-live="off"><span id="role">Data scientist, ML engineer, AI automation builder</span><i></i></div>
+<p class="lede">Computer science graduate from Delhi, focused on data science, machine learning and AI automation. Move your mouse: the light follows.</p>
+<div class="btns">
+<a class="btn p" href="#work">See projects</a>
+<!-- Resume: direct-download link to your Drive file. To host the PDF in this repo instead, upload it as Abhishek-Resume.pdf and use href="Abhishek-Resume.pdf" -->
+<a class="btn" href="https://drive.google.com/uc?export=download&amp;id=1TfvbKvk5bx73wO7jnfkTfuGaU8jffdbH" download rel="noopener noreferrer">Download resume</a>
+<a class="btn" href="https://github.com/Abwalker2" target="_blank" rel="noopener noreferrer">GitHub</a>
+</div>
+</div>
+
+<section id="about"><h2>About</h2>
+<div class="about">
+<div class="panel"><p>I turn raw data into models and decisions with Python, SQL and Power BI, and I build AI automations with n8n and LLM workflows. My projects cover classical machine learning, retrieval-augmented generation, a transformer written from scratch, and agents that grade work, summarise meetings and report on documents.</p><p>B.Tech in Computer Science from Delhi Technical Campus (GGSIPU), 2021 to 2025. Today I teach web development, Python and data analysis, which keeps my explanations simple and my code readable.</p></div>
+<div class="panel"><div class="stat">8.2<small>CGPA, B.Tech CSE</small></div><div class="stat gap">5<small>featured projects</small></div><div class="stat gap">3<small>certifications</small></div></div>
+</div></section>
+
+<section id="work"><h2>Projects</h2>
+<div class="grid">
+<article class="panel card"><span class="kind">Machine learning and RAG</span><h3>AI-Powered Customer Support Assistant</h3>
+<p>Classifies support tickets by intent, sentiment and urgency, retrieves relevant help articles with semantic search (MiniLM embeddings and FAISS), then writes grounded answers with an open-source LLM. Served through FastAPI and a Streamlit chat UI, containerised with Docker and tested in CI.</p>
+<p class="note">Trained on a synthetic dataset: the sentiment model reaches about 89% accuracy (0.89 macro-F1).</p>
+<div class="chips"><span>Python</span><span>Scikit-learn</span><span>FAISS</span><span>FastAPI</span><span>Streamlit</span><span>Docker</span></div>
+<a class="link" href="https://github.com/Abwalker2?tab=repositories" target="_blank" rel="noopener noreferrer">View on GitHub</a></article>
+
+<article class="panel card"><span class="kind">Deep learning</span><h3>Hindi-to-Gujarati Translator</h3>
+<p>A character-level encoder-decoder transformer built from scratch in PyTorch, with multi-head self-attention, cross-attention and sinusoidal positional encoding, wrapped in a Streamlit app for live translation.</p>
+<div class="chips"><span>PyTorch</span><span>Transformers</span><span>NLP</span><span>Streamlit</span></div>
+<a class="link" href="https://github.com/Abwalker2/Hindi-to-Gujarati-Translator" target="_blank" rel="noopener noreferrer">View on GitHub</a></article>
+
+<article class="panel card"><span class="kind">AI automation (n8n)</span><h3>AI Assignment Evaluation System</h3>
+<p>A webhook workflow that downloads a student's PDF, extracts the text and has an LLM evaluator detect the assignment's subject before scoring only against relevant benchmarks. It emails a graded report with strengths, gaps and next steps.</p>
+<div class="chips"><span>n8n</span><span>OpenRouter</span><span>Prompt engineering</span><span>Gmail API</span></div>
+<a class="link" href="https://github.com/Abwalker2/ai-assignment-evaluation-system" target="_blank" rel="noopener noreferrer">View on GitHub</a></article>
+
+<article class="panel card"><span class="kind">AI automation (n8n)</span><h3>AI Office Meeting Agent</h3>
+<p>Turns a raw meeting transcript into minutes of meeting. An LLM extracts decisions, action items with owners and next steps, a code step parses and validates the output, and a formatted email with an action-items table goes to attendees.</p>
+<div class="chips"><span>n8n</span><span>OpenRouter</span><span>JavaScript</span><span>Gmail API</span></div>
+<a class="link" href="https://github.com/Abwalker2/ai-office-meeting-agent" target="_blank" rel="noopener noreferrer">View on GitHub</a></article>
+
+<article class="panel card"><span class="kind">AI automation (n8n)</span><h3>Document Intelligence and Predictive Analytics Pipeline</h3>
+<p>Watches a Google Drive folder for new PDFs, extracts the text, asks an LLM for predictive insights in a fixed 10-line format and emails an HTML report automatically, with no manual review.</p>
+<div class="chips"><span>n8n</span><span>Google Drive API</span><span>OpenRouter</span><span>Gmail API</span></div>
+<a class="link" href="https://github.com/Abwalker2/document-intelligence-predictive-pipeline" target="_blank" rel="noopener noreferrer">View on GitHub</a></article>
+</div></section>
+
+<section id="skills"><h2>Toolbox</h2>
+<div class="skills">
+<div class="panel"><h3>Data and analytics</h3><div class="chips"><span>Python</span><span>SQL</span><span>Power BI</span><span>Tableau</span><span>Excel</span></div></div>
+<div class="panel"><h3>Machine learning</h3><div class="chips"><span>Scikit-learn</span><span>TensorFlow</span><span>PyTorch</span></div></div>
+<div class="panel"><h3>AI and engineering</h3><div class="chips"><span>LLM prompting</span><span>n8n</span><span>Docker</span><span>Git</span><span>Linux</span></div></div>
+<div class="panel"><h3>Certifications</h3><div class="chips"><span>CS50 (Harvard, edX)</span><span>Deloitte Data Analytics (Forage)</span><span>Infosys Springboard Python</span></div></div>
+</div></section>
+
+<section id="path"><h2>Experience</h2>
+<div class="tl">
+<div><small>Oct 2026 to present</small><h3>Software Trainer, DICS Innovatives</h3><p>Teaching web design (HTML, CSS, JavaScript, Bootstrap), C, C++, Python, data analysis with Excel, Power BI and SQL, and prompt engineering.</p></div>
+<div><small>Jun 2026 to Aug 2026</small><h3>Data Science and AI Instructor, Krutrim Insights</h3><p>Instructed learners in data science and AI.</p></div>
+<div><small>2021 to 2025</small><h3>B.Tech Computer Science</h3><p>Delhi Technical Campus, affiliated to GGSIPU. CGPA 8.2.</p></div>
+</div></section>
+</main>
+
+<footer class="wrap" id="contact">
+<h2>Let's build what's next.</h2>
+<p class="lede">Open to data science, AI/ML and analytics roles, and freelance projects. Based in Delhi, India.</p>
+<div class="btns">
+<a class="btn p" href="https://drive.google.com/uc?export=download&amp;id=1TfvbKvk5bx73wO7jnfkTfuGaU8jffdbH" download rel="noopener noreferrer">Download resume</a>
+<a class="btn" href="https://www.linkedin.com/in/abhishek-672049253" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+<a class="btn" href="https://github.com/Abwalker2" target="_blank" rel="noopener noreferrer">GitHub</a>
+</div>
+</footer>
+
+<script src="app.js" defer></script>
+</body>
+</html>
